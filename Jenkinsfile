@@ -1,5 +1,5 @@
 pipeline {
-    agent { node { label 'swarm-ci' } }
+    agent { any }
 
     environment {
         TEST_PREFIX = "test-IMAGE"
