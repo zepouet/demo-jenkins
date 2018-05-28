@@ -8,7 +8,7 @@ pipeline {
         REGISTRY_ADDRESS = "my.registry.address.com"
 
         COMPOSE_FILE = "docker-compose.yml"
-        REGISTRY_AUTH = credentials("docker-registry")
+        // REGISTRY_AUTH = credentials("docker-registry")
     }
 
    stages {
